@@ -1,1 +1,1 @@
-# distributed-computing
+# Sistemas Distribuídos - Trabalho de PO
