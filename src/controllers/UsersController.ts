@@ -3,7 +3,7 @@ import knex from '../database/connection';
 
 class UsersController {
     async index(req: Request, res: Response) {
-        const users = await knex('users').select('*');
+        const users = await knex('users');
 
         const serializedusers = users.map(item => {
             return {

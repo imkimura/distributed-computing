@@ -1,12 +1,16 @@
-import express, {response} from 'express';
-import knex from './database/connection';
+import express from 'express';
 
-import UsersController from './controllers/UsersController';
+import StudentsController from './controllers/StudentsController';
 
 const routes = express.Router();
 
-const usersController = new UsersController();
+const studentsController = new StudentsController();
 
-routes.get('/users', usersController.index);
+routes.get('/students', studentsController.index);
+routes.post('/students', studentsController.store);
+routes.get('/students/:id', studentsController.show);
+routes.put('/students/:id', studentsController.update);
+routes.delete('/students/:id', studentsController.delete);
+
 
 export default routes;
