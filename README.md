@@ -8,7 +8,7 @@ Api feita para matéria de Sistemas Distribuidos de BCC, em node com typescrpt c
 4. Editar um aluno
 5. Remover um aluno
 
-Para rodar o projeto é necessário baixar as dependências e para conhecimento das rotas as mesmas estã documentadas em `./postman/backup.json`.
+Para rodar o projeto é necessário baixar as dependências, e para conhecimento das rotas, elas estão documentadas em `./postman/backup.json`.
 
 ```cmd
 # versão do node na minha máquina
@@ -19,7 +19,7 @@ npm -v
 6.13.4
 ```
 
-Após baixar projeto execute o comando abixo para baixar dependências
+Após baixar projeto execute o comando abaixo para baixar dependências
 
 ```
 npm install
